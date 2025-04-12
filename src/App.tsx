@@ -1,12 +1,13 @@
-import { Header, Footer, Sidebar, Dashboard } from './components'
+import { Footer, Sidebar, Dashboard } from './components'
+
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-100">
-      <Header />
-      <div className="flex flex-1">
+    <div >
+      {/* <Header /> */}
+      <div>
         <Sidebar />
-        <main className="flex-1 p-4">
+        <main >
           <Dashboard />
         </main>
       </div>
